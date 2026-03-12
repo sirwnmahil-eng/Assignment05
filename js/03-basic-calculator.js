@@ -24,7 +24,7 @@ function calculate(x, y, operation) {
     case "divide":
       return x / y;
     default:
-      alert("Invalid operation! Please enter add, subtract, multiply, or divide.");
+      alert("Invalid operation! Please enter 'add', 'subtract', 'multiply', or 'divide'.");
       return null;
   }
 }
